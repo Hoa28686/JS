@@ -8,3 +8,7 @@ Example outputs:
 "NaN" (if the input is invalid).
 
  */
+let userInput = '25.75 apples';
+let input = parseFloat(userInput);
+let one_decimal = input.toFixed(1);
+console.log('Result: ', one_decimal);

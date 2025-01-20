@@ -5,3 +5,11 @@
 4. Use the Math.ceil() method to round it up to the nearest whole number.
 5. Print the results using console.log() with messages like: "The rounded value is 6." 
 */
+let num = 5.67;
+let round = Math.round(num);
+let floor = Math.floor(num);
+let ceil = Math.floor(num);
+
+console.log('The rounded value is ', round, '.');
+console.log('The floored value is ', floor, '.');
+console.log('The ceiled value is ', ceil, '.');

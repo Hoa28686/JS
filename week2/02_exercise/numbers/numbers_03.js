@@ -11,3 +11,9 @@ NaN (if the addition involves invalid input).
 10 (if both inputs are valid numbers).
 
 */
+
+let num1 = '10';
+let num2 ='notANumber';
+let num1_float = parseFloat(num1);
+let num2_float = parseFloat(num2);
+console.log('The sum of num1 and num2: ', num1_float + num2_float);
