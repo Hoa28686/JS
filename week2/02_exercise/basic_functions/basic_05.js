@@ -9,6 +9,8 @@ Hint: Use Math.random(), Math.floor(), and simple math.
 */
 
 function generateRandomNumber(min, max){
-    return Math.random ;
+    let scale = Math.random() * (max - min + 1);
+    let floor = Math.floor(scale);
+    return floor + min;
 }
 console.log(generateRandomNumber(1, 10));

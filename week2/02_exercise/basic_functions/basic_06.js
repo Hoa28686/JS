@@ -5,3 +5,7 @@ Call the function with the sentence "I like apples.", oldWord as "apples", and n
 Print the result using console.log(). 
 
 */
+
+const replaceWord = (sentence, oldWord, newWord) => sentence.replace(oldWord, newWord);
+
+console.log(replaceWord("I like apples.", "apples", "bananas"));

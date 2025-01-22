@@ -7,3 +7,6 @@ Print the result using console.log().
 Hint: Use .toFixed().
 
 */
+const roundNumber = (num, precision) => parseFloat(num.toFixed(precision));
+
+console.log(roundNumber(19.56789, 2));

@@ -6,3 +6,7 @@ Print the result using console.log().
 
 Hint: Use Math.max(). 
 */
+
+const findMax = (a, b, c) => Math.max(a, b, c);
+
+console.log(`Result: ${findMax(12, 7, 20)}`);
