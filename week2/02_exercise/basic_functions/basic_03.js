@@ -5,3 +5,6 @@ Call the function with the string "JavaScript".
 Print the result using console.log().
 
 */
+const getLength = str => str.length;
+
+console.log(getLength("JavaScript"));

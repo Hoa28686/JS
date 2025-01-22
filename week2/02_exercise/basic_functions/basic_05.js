@@ -7,3 +7,8 @@ Print the result using console.log().
 Hint: Use Math.random(), Math.floor(), and simple math.
 
 */
+
+function generateRandomNumber(min, max){
+    return Math.random ;
+}
+console.log(generateRandomNumber(1, 10));

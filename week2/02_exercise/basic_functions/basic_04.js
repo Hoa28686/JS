@@ -5,5 +5,7 @@ Call the function with the string "javascript".
 Print the result using console.log().
 
 Hint: Use str[0].toUpperCase() and str.slice(1).toLowerCase().
-
 */
+const capitalize = str => str[0].toUpperCase() + str.slice(1).toLowerCase();
+
+console.log(capitalize('javascript'));
