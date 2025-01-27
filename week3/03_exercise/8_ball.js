@@ -13,7 +13,7 @@ function random_number(min, max){
 function answer(){
     switch(random_number(1,8)){
         case 1:
-            console.log("Yes, definitely!");
+            return "Yes, definitely!";
             break;
         case 2:
             console.log("It is certain.");
