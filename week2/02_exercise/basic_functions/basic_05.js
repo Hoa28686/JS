@@ -9,8 +9,23 @@ Hint: Use Math.random(), Math.floor(), and simple math.
 */
 
 function generateRandomNumber(min, max){
-    let scale = Math.random() * (max - min + 1);
+    let scale = Math.random() * (max - min +1);
     let floor = Math.floor(scale);
     return floor + min;
 }
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
+console.log(generateRandomNumber(1, 10));
 console.log(generateRandomNumber(1, 10));

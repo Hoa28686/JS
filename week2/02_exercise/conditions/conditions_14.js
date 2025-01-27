@@ -6,3 +6,7 @@ Use a ternary operator to return:
 "Enjoy the outdoors!" otherwise.
 Call the function with different values for isRaining. 
 */
+const rainAdvice = isRaining => isRaining == true ? console.log("Stay indoors") : console.log("Enjoy the outdoors!");
+
+rainAdvice(true);
+rainAdvice(false);
